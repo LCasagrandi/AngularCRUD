@@ -1,0 +1,116 @@
+{
+  "produtos": [
+    {
+      "nome": "Leonardo Casagrandi",
+      "validade": "2021-12-28",
+      "precoProduto": 12,
+      "id": 1
+    }
+  ],
+  "jogos": [
+    {
+      "id": 1,
+      "titulo": "Battlefield 4",
+      "dataLancamento": "2013-08-29",
+      "desenvolvedor": "DICE",
+      "preco": 199,
+      "card": "https://gamehall.com.br/wp-content/uploads/2014/11/Battlefield-4-Wallpaper-Full-HD-1920x1080.jpg"
+    },
+    {
+      "titulo": "Battlefield 1",
+      "desenvolvedor": "DICE",
+      "dataLancamento": "2019-07-24",
+      "preco": 199,
+      "id": 2,
+      "card": "https://wallpaperaccess.com/full/1368836.jpg"
+    },
+    {
+      "titulo": "Ori and the Will of the Wisps",
+      "desenvolvedor": "Microsoft",
+      "dataLancamento": "2021-12-21",
+      "preco": 199,
+      "card": "https://gameranx.com/wp-content/uploads/2020/07/ba39a41d-0f58-48aa-8b6b-e897b09d24e6.png",
+      "id": 3
+    },
+    {
+      "titulo": "Minecraft Dungeons",
+      "desenvolvedor": "Mojang",
+      "dataLancamento": "2020-11-24",
+      "preco": 99,
+      "card": "https://images.hdqwalls.com/download/minecraft-dungeons-4k-ep-1920x1080.jpg",
+      "id": 4
+    },
+    {
+      "titulo": "Cyberpunk 2077",
+      "desenvolvedor": "CDProjectRED",
+      "dataLancamento": "2021-05-10",
+      "preco": 299,
+      "card": "https://static.cdprojektred.com/cms.cdprojektred.com/16x9_big/12aaa3b137a18e180bb92682e8f81674dcb7451f-1920x1080.jpg",
+      "id": 5
+    },
+    {
+      "titulo": "The Witcher 3",
+      "desenvolvedor": "CDProjectRED",
+      "dataLancamento": "2018-02-13",
+      "preco": 69,
+      "card": "https://wallpapercave.com/wp/wp1854671.jpg",
+      "id": 6
+    },
+    {
+      "titulo": "Watch Dogs",
+      "desenvolvedor": "Ubisoft",
+      "dataLancamento": "2017-06-13",
+      "preco": 39,
+      "card": "https://www.gamerroof.com/wp-content/uploads/2019/06/Watch-Dogs-PC-Version-Full-Game-Free-Download.jpg",
+      "id": 7
+    },
+    {
+      "titulo": "Watch Dogs 2",
+      "desenvolvedor": "Ubisoft",
+      "dataLancamento": "2019-10-30",
+      "preco": 199,
+      "card": "https://cdn1.epicgames.com/angelonia/offer/WD2-STD-Capsule-1920x1080-2a2ed8c8265ab31156be8ab48a93dc212d5c7095.jpg",
+      "id": 8
+    },
+    {
+      "titulo": "Grand Theft Auto 5",
+      "desenvolvedor": "Rockstar Games",
+      "dataLancamento": "2014-05-25",
+      "preco": 99,
+      "card": "https://www.gta5.com.br/wp-content/uploads/2015/04/gta-v-1.jpg",
+      "id": 9
+    },
+    {
+      "titulo": "Fall Guys",
+      "desenvolvedor": "Mediatonic",
+      "dataLancamento": "2019-10-29",
+      "preco": 39,
+      "card": "https://www.gamerpoint.com.br/wp-content/uploads/2021/03/Fall-guys-temporada-4.jpg",
+      "id": 10
+    },
+    {
+      "titulo": "Terraria",
+      "desenvolvedor": "Re-Logic",
+      "dataLancamento": "2013-09-17",
+      "preco": 19,
+      "card": "https://wallpapercave.com/wp/wp2233411.jpg",
+      "id": 11
+    },
+    {
+      "titulo": "Assassin's Creed: Valhalla",
+      "desenvolvedor": "Ubisoft",
+      "dataLancamento": "2021-03-14",
+      "preco": 399,
+      "card": "https://www.centralxbox.com.br/wp-content/uploads/2020/11/Assassins-Creed-Eivor-Valhalla.jpg",
+      "id": 12
+    },
+    {
+      "titulo": "Detroit: Become Humam",
+      "desenvolvedor": "Quantic Dream",
+      "dataLancamento": "2021-04-12",
+      "preco": 299,
+      "card": "https://images.hdqwalls.com/wallpapers/connor-detroit-become-human-2018-16.jpg",
+      "id": 13
+    }
+  ]
+}
