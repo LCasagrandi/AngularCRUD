@@ -1,0 +1,20 @@
+body{
+  background-color: #1c1f22!important
+}
+.table {
+  display: table;
+}
+
+.btn-outline-success {
+  color: #ffffff;
+  border-color: #882dc5;
+}
+
+.btn-outline-success:hover {
+  color: #ffffff;
+  border-color: #882dc5;
+  background-color: #882dc5;
+}
+*{
+  pointer-events:auto;
+}

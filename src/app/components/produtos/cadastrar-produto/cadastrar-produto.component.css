@@ -1,0 +1,15 @@
+#gambiarra{
+  padding: 0px;
+}
+
+.card{
+  border-color: #882dc5;
+  background-color: transparent;
+
+}
+
+.btn-success {
+  color: #ffffff;
+  border-color: #882dc5;
+  background-color: #882dc5;
+}

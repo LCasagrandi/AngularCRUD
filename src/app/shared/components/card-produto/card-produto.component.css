@@ -1,0 +1,42 @@
+*{
+  border: none;
+  pointer-events:auto;
+}
+
+.list-group-item:hover{
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(83,49,147,1) 0%, rgba(159,95,251,1) 0%, rgba(106,77,158,1) 22%, rgba(52,58,64,1) 83%);
+  animation-delay: 2s;
+}
+
+.list-group-item{
+  transition-delay: 2s;
+}
+
+.card-body{
+  padding: 10px;
+  text-align: center;
+  border: none;
+}
+
+.col{
+  transition: transform .2s; /* Animation */
+}
+
+.col:hover{
+  transform: scale(1.08);
+}
+
+.outline-border {
+  border-top: 7px solid #9900ff;
+  border-bottom:7px solid #4400ff;
+  background-image:
+      linear-gradient(#9900ff, #4400ff),
+      linear-gradient(#9900ff, #4400ff)
+  ;
+  background-size:3px 100%;
+  background-position:0 0, 100% 0;
+  background-repeat:no-repeat;
+}
+
+

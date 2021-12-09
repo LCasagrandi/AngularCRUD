@@ -1,0 +1,24 @@
+<img src={{jogo.card}} alt="" class="socorro" style="width:100%;height:100%;position:absolute;top:0;left:0;z-index:-5000;">
+
+<div class="fullscreen">
+  <div class="teste" style="background-color:rgba(0, 0, 0, 0.5);">
+    <div>
+      <h4 class="text-light font-weight-bold mt-4  mb-4">{{jogo.titulo}}</h4>
+      <p class="text-light">Jogo desenvolvidor por: <a class="font-weight-bold">{{jogo.desenvolvedor}}</a></p>
+      <button type="button" class="btn btn-primary btn-lg" [swal]="{
+
+        title: 'Calma La!',
+
+        text: 'Meu conhecimento só permite você navegar até aqui por enquanto',
+
+        confirmButtonText: 'Poxa, então ta!',
+
+        icon: 'info'
+
+      }">
+        <h4 class="text-light font-weight-bolder"><i class="bi bi-cart mr-2"></i>Comprar por: {{jogo.preco | currency: "BRL"}}</h4>
+      </button>
+
+    </div>
+  </div>
+</div>

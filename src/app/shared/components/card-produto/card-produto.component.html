@@ -1,0 +1,32 @@
+
+<!--
+<div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4" *ngFor="let prod of listaJogos">
+    <div class="card-group">
+      <div class="card mr-4 mb-4" style="width: 10rem;">
+        <img src={{prod.card}} class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{prod.nome | uppercase}}</h5>
+          <p class="card-text">Identificação: {{prod.id | number: '2.0-0'}}
+            <br> Validade: {{prod.validade | date: 'shortDate'}}
+          </p>
+          <a href="#" class="btn btn-primary">{{prod.precoProduto | currency: 'BRL'}}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+<!--Lista dos jogos-->
+<div class="row row-cols-2 row-cols-md-4 mt-4">
+  <div class="col mb-4 " *ngFor="let prod of listaJogos" type="button" routerLink="/comprar/{{prod.id}}">
+    <div class="card h-100 bg-dark outline-border">
+      <img src={{prod.card}} class="card-img-top rounded-lg" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-white font-weight-italic">{{prod.titulo}}</h5>
+      </div>
+    </div>
+  </div>
+</div>
+

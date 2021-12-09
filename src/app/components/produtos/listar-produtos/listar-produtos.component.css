@@ -1,0 +1,31 @@
+.card{
+  border-color: #882dc5;
+  background-color: transparent;
+
+}
+td{
+  border-color: #882dc5;
+  background-color: transparent;
+  color: aliceblue;
+}
+th{
+  border-color: #882dc5;
+  background-color: transparent;
+  color: azure;
+}
+thead{
+  border-color: #882dc5;
+  background-color: transparent;
+}
+
+.btn-outline-success {
+  border-color: #882dc5;
+
+}
+
+.btn-outline-success:hover {
+  color: #ffffff;
+  border-color: #882dc5;
+  background-color: #882dc5;
+}
+

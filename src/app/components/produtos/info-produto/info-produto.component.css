@@ -1,0 +1,46 @@
+
+body{
+  background-image: var(background-image);
+}
+
+.img-thumbnail{
+
+  border: none;
+  padding: 0px;
+  width: 480px;
+  height: 255px;
+}
+
+
+img{
+  opacity: 50%;
+  filter: blur(4px);
+}
+
+.card{
+  border: none;
+}
+
+.fullscreen {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+
+}
+
+.teste{
+  border-radius: 6%;
+  text-align: center;
+  margin: 35% 1% 0% 0%;
+  background-color: rgb(44, 44, 44);
+  width: 30%;
+  height: 25%;
+  float: right  ;
+}
+*{
+  pointer-events:auto;
+}
